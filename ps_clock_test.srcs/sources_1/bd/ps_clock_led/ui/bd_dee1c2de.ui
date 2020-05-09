@@ -1,0 +1,16 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port pl_resetn -pg 1 -y 100 -defaultsOSRD
+preplace port pl_clk -pg 1 -y 20 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 2 20 10 620
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 1 N
+levelinfo -pg 1 0 320 640 -top 0 -bot 190
+",
+}
+{
+   da_board_cnt: "2",
+   da_clkrst_cnt: "2",
+   da_zynq_ultra_ps_e_cnt: "1",
+}

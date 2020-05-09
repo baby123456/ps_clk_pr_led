@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="zynq_ultra_ps_e_0_synth_1" LaunchDir="E:/fastAcess/recent/xen_on_ARM/PR/ps_clock_test/ps_clock_test/ps_clock_test.runs/zynq_ultra_ps_e_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

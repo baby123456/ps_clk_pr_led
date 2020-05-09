@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat May  9 16:20:27 2020
+# Process ID: 5548
+# Current directory: E:/fastAcess/recent/xen_on_ARM/PR/ps_clock_test/ps_clock_test/ps_clock_test.runs/impl_1
+# Command line: vivado.exe -log ps_clock_led_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ps_clock_led_wrapper.tcl -notrace
+# Log file: E:/fastAcess/recent/xen_on_ARM/PR/ps_clock_test/ps_clock_test/ps_clock_test.runs/impl_1/ps_clock_led_wrapper.vdi
+# Journal file: E:/fastAcess/recent/xen_on_ARM/PR/ps_clock_test/ps_clock_test/ps_clock_test.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ps_clock_led_wrapper.tcl -notrace

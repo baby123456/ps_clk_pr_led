@@ -1,0 +1,50 @@
+
+*** Running vivado
+    with args -log zynq_ultra_ps_e_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_ultra_ps_e_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source zynq_ultra_ps_e_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 619.551 ; gain = 0.000
+INFO: [Synth 8-638] synthesizing module 'zynq_ultra_ps_e_0' [e:/fastAcess/recent/xen_on_ARM/PR/ps_clock_test/ps_clock_test/ps_clock_test.srcs/sources_1/ip/zynq_ultra_ps_e_0/synth/zynq_ultra_ps_e_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'zynq_ultra_ps_e_v3_0_1_zynq_ultra_ps_e' [e:/fastAcess/recent/xen_on_ARM/PR/ps_clock_test/ps_clock_test/ps_clock_test.srcs/sources_1/ip/zynq_ultra_ps_e_0/hdl/zynq_ultra_ps_e_v3_0_1.v:182]
+INFO: [Synth 8-638] synthesizing module 'BUFG_PS' [D:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:796]
+INFO: [Synth 8-256] done synthesizing module 'BUFG_PS' (1#1) [D:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:796]
+INFO: [Synth 8-638] synthesizing module 'PS8' [D:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:34773]
+INFO: [Synth 8-256] done synthesizing module 'PS8' (2#1) [D:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:34773]
+INFO: [Synth 8-256] done synthesizing module 'zynq_ultra_ps_e_v3_0_1_zynq_ultra_ps_e' (3#1) [e:/fastAcess/recent/xen_on_ARM/PR/ps_clock_test/ps_clock_test/ps_clock_test.srcs/sources_1/ip/zynq_ultra_ps_e_0/hdl/zynq_ultra_ps_e_v3_0_1.v:182]
+INFO: [Synth 8-256] done synthesizing module 'zynq_ultra_ps_e_0' (4#1) [e:/fastAcess/recent/xen_on_ARM/PR/ps_clock_test/ps_clock_test/ps_clock_test.srcs/sources_1/ip/zynq_ultra_ps_e_0/synth/zynq_ultra_ps_e_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 619.551 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 619.551 ; gain = 0.000
+INFO: [Device 21-403] Loading part xczu2eg-sfva625-1-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.234 . Memory (MB): peak = 1009.574 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:01:58 . Memory (MB): peak = 1009.574 ; gain = 390.023
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:01:58 . Memory (MB): peak = 1009.574 ; gain = 390.023
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:01:58 . Memory (MB): peak = 1009.574 ; gain = 390.023
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:01:59 . Memory (MB): peak = 1009.574 ; gain = 390.023
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:02:00 . Memory (MB): peak = 1009.574 ; gain = 390.023
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:04 ; elapsed = 00:02:54 . Memory (MB): peak = 3610.984 ; gain = 2991.434
+Finished Timing Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:02:55 . Memory (MB): peak = 3628.078 ; gain = 3008.527
+Finished Technology Mapping : Time (s): cpu = 00:01:14 ; elapsed = 00:03:07 . Memory (MB): peak = 3647.551 ; gain = 3028.000
+Finished IO Insertion : Time (s): cpu = 00:01:23 ; elapsed = 00:03:16 . Memory (MB): peak = 3647.551 ; gain = 3028.000
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:23 ; elapsed = 00:03:16 . Memory (MB): peak = 3647.551 ; gain = 3028.000
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:23 ; elapsed = 00:03:17 . Memory (MB): peak = 3647.551 ; gain = 3028.000
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:23 ; elapsed = 00:03:17 . Memory (MB): peak = 3647.551 ; gain = 3028.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:23 ; elapsed = 00:03:17 . Memory (MB): peak = 3647.551 ; gain = 3028.000
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:23 ; elapsed = 00:03:17 . Memory (MB): peak = 3647.551 ; gain = 3028.000
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG_PS |     1|
+|2     |LUT1    |   300|
+|3     |PS8     |     1|
+|4     |FDRE    |     1|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:23 ; elapsed = 00:03:17 . Memory (MB): peak = 3647.551 ; gain = 3028.000
+synth_design: Time (s): cpu = 00:01:25 ; elapsed = 00:03:32 . Memory (MB): peak = 3660.953 ; gain = 3041.402
