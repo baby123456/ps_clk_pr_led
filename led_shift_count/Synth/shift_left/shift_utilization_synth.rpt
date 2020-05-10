@@ -1,8 +1,8 @@
-Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Sat May  9 23:27:28 2020
-| Host         : 372QMN39Y4Y0WAX running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Sun May 10 11:15:41 2020
+| Host         : ict-virtual-machine running 64-bit Ubuntu 18.04 LTS
 | Command      : report_utilization -file ./Synth/shift_left/shift_utilization_synth.rpt
 | Design       : shift
 | Device       : xczu2egsfva625-1
