@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xczu2eg-sfva625-1-e" LaunchTime="1589012063">
+  <File Type="PWROPT-DRC" Name="ps_clock_led_wrapper_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ps_clock_led_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ps_clock_led_wrapper_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR-RPX" Name="ps_clock_led_wrapper_power_routed.rpx"/>
   <File Type="PA-TCL" Name="ps_clock_led_wrapper.tcl"/>
-  <File Type="INIT-TIMING" Name="ps_clock_led_wrapper_timing_summary_init.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="ps_clock_led_wrapper_methodology_drc_opted.rpt"/>
-  <File Type="PWROPT-DRC" Name="ps_clock_led_wrapper_drc_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ps_clock_led_wrapper.hwdef"/>
   <File Type="RDI-RDI" Name="ps_clock_led_wrapper.vdi"/>
   <File Type="OPT-DCP" Name="ps_clock_led_wrapper_opt.dcp"/>
-  <File Type="OPT-HWDEF" Name="ps_clock_led_wrapper.hwdef"/>
   <File Type="OPT-DRC" Name="ps_clock_led_wrapper_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="ps_clock_led_wrapper_timing_summary_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="ps_clock_led_wrapper_pwropt.dcp"/>
@@ -31,14 +31,14 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="ps_clock_led_wrapper_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="ps_clock_led_wrapper_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="ps_clock_led_wrapper_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="ps_clock_led_wrapper_drc_routed.rpx"/>
   <File Type="BG-BIN" Name="ps_clock_led_wrapper.bin"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="ps_clock_led_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="ps_clock_led_wrapper_drc_routed.rpx"/>
   <File Type="BG-DRC" Name="ps_clock_led_wrapper.drc"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ps_clock_led_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ps_clock_led_wrapper_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-MSK" Name="ps_clock_led_wrapper.msk"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ps_clock_led_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ps_clock_led_wrapper_methodology_drc_routed.rpx"/>
   <File Type="BG-BGN" Name="ps_clock_led_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ps_clock_led_wrapper_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR" Name="ps_clock_led_wrapper_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="ps_clock_led_wrapper_power_summary_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="ps_clock_led_wrapper_route_status.rpt"/>

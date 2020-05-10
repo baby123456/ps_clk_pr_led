@@ -3,10 +3,10 @@
 #  -string -flagsOSRD
 preplace port pl_resetn -pg 1 -y 100 -defaultsOSRD
 preplace port pl_clk -pg 1 -y 20 -defaultsOSRD
-preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -y 100 -defaultsOSRD
-preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 2 20 10 620
-preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 1 N
-levelinfo -pg 1 0 320 640 -top 0 -bot 190
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -y 100 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 1 2 120 190 790
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 2 1 N
+levelinfo -pg 1 -20 100 490 820 -top -100 -bot 300
 ",
 }
 {

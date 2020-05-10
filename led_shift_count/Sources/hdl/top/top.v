@@ -14,6 +14,12 @@ module top(
         .pl_clk(pl_clk),
         .pl_resetn(pl_resetn)
    );
+   
+   ila_led ila_test (
+       .clk(pl_clk),           // input wire clk
+       .probe0(count[0])       // input wire [0:0] probe0
+   );
+   
    // instantiate module shift
    shift inst_shift (
       .en       (pl_resetn),
